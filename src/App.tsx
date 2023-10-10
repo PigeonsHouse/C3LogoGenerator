@@ -45,7 +45,7 @@ const App = () => {
     const theta = 2 * Math.PI / counter;
     for (let i = 0; i < counter; i++) {
       const size = context.measureText(textArray[i]);
-      context.fillText(textArray[i], 1000 - size.width/2, 210);
+      context.fillText(textArray[i], 1000 - Math.min(size.width/2, 2250/counter), 210, 4500/counter);
       context.translate(1000, 1000);
       context.rotate(theta);
       context.translate(-1000, -1000);
