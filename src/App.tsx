@@ -3,7 +3,7 @@ import "./App.css"
 
 const App = () => {
   // logoの文字
-  const [logoLabel, setLogoLabel] = useState<string>("His (her) face was concealed by our censorship. ");
+  const [logoLabel, setLogoLabel] = useState<string>("face was concealed by our censorship. His (her) ");
   // logoの背景色
   const [backgroundColor, setBackgroundColor] = useState<string>("#000000");
   // canvasのHTML要素
