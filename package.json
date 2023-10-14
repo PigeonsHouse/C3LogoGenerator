@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && cp -r dist docs",                   
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rebuild": "vite build && rm -R docs && cp -r dist docs"
   },
   "dependencies": {
+    "@types/node": "^20.8.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
