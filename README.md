@@ -1,3 +1,3 @@
 # 新規リポジトリはこちら
 
-[Kyutech-C3/LogoGenerator](github.com/Kyutech-C3/LogoGenerator)
+[Kyutech-C3/LogoGenerator](https://github.com/Kyutech-C3/LogoGenerator)
