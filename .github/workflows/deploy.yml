@@ -30,7 +30,7 @@ jobs:
 
       - name: create CNAME
         run: |
-          echo "logo-gen.compositecomputer.club" >> CNAME
+          echo "logo-gen.compositecomputer.club" >> dist/CNAME
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
