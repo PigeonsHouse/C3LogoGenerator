@@ -28,9 +28,12 @@ jobs:
         with:
           cmd: build
 
+      - name: create CNAME
+        run: |
+          echo "logo-gen.compositecomputer.club" >> CNAME
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           BRANCH: gh-pages 
           FOLDER: dist 
-          CNAME: logo-gen.compositecomputer.club
